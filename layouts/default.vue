@@ -36,4 +36,7 @@ h2 {
   font-weight: 200;
   font-size: 16px;
 }
+hr{
+  margin: 0;
+}
 </style>

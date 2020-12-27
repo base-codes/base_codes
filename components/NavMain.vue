@@ -82,14 +82,13 @@
   }
 }
 nav {
-  width: 0%;
-  position: absolute;
+  width: 0;
+  position: fixed;
   top: 0;
   right: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
   height: 100%;
   background-color: #000;
   font-size: 48px;
@@ -100,7 +99,7 @@ nav {
   .nav-items {
     display: flex;
     flex-direction: column;
-    width: 90vh;
+    width: 90vw;
     margin-left: 64px;
     overflow: hidden;
     a {
@@ -119,7 +118,6 @@ nav {
 .fadeIn {
   width: 100%;
 }
-
 //отключение скрола при открытой навигации
 .openedNav {
   width: 100%;
