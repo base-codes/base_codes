@@ -29,10 +29,10 @@ export default {}
 .intro {
   margin-top: 88px;
   padding: 0 64px;
-  height: 120vh;
   h1 {
     margin-top: 330px;
     font-size: 96px;
+    font-weight: 400;
   }
   .img-box {
     position: relative;
@@ -43,6 +43,7 @@ export default {}
       position: absolute;
       bottom: 64px;
       left: 48px;
+      font-size: 48px;
       background-color: #161616;
     }
   }

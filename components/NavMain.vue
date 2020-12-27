@@ -48,7 +48,7 @@
   display: flex;
   justify-content: space-between;
   padding: 32px 64px;
-  background-color: #000;
+  background-color: #161616;
   z-index: 9999;
 }
 .navButton {
@@ -96,6 +96,7 @@ nav {
   font-weight: 400;
   transition: width 0.4s ease-in-out;
   overflow: hidden;
+  z-index: 9998;
   .nav-items {
     display: flex;
     flex-direction: column;
