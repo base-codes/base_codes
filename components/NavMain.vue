@@ -100,7 +100,7 @@ nav {
   .nav-items {
     display: flex;
     flex-direction: column;
-    width: 90vh;
+    width: 90vw;
     margin-left: 64px;
     overflow: hidden;
     a {
