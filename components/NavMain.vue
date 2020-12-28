@@ -149,6 +149,12 @@ export default {
     }
 
   },
+  mounted () {
+    window.addEventListener('scroll', this.onScroll)
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
+  },
   methods: {
     openNav () {
       this.withVissible = !this.withVissible
@@ -167,12 +173,6 @@ export default {
       }
       this.showNavbar = currentScrollPosition < this.lastScrollPosition
       this.lastScrollPosition = currentScrollPosition
-    },
-    mounted () {
-      window.addEventListener('scroll', this.onScroll)
-    },
-    beforeDestroy () {
-      window.removeEventListener('scroll', this.onScroll)
     }
   }
 }
