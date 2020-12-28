@@ -1,6 +1,6 @@
 <template>
   <div class="error-wrapper">
-    <div class="error-block">
+    <section class="error-block">
       <div class="columns">
         <div class="column is-offset-3">
           <h1 v-if="error.statusCode === 404" class="headler-error">
@@ -11,8 +11,10 @@
           </h1>
         </div>
       </div>
-      <hr>
-      <div class="columns">
+    </section>
+    <hr>
+    <section class="erorr">
+      <div class="columns columns_line">
         <div class="column is-3">
           <p>Error</p>
         </div>
@@ -31,7 +33,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
@@ -49,14 +51,14 @@ export default {
 <style lang="scss">
 .error-wrapper {
   height: 100vh;
-  padding: 0 64px;
 
   .error-block {
-    height: 90%;
+    height: 88%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-top: 88px;
+    margin: 0 64px;
   }
   .home-button {
     padding: 16px 64px;
@@ -73,4 +75,10 @@ export default {
     font-size: 256px;
   }
 }
+.erorr{
+    margin: 0 64px;
+  }
+  hr{
+    margin-bottom: 24px;
+  }
 </style>

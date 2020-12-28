@@ -41,6 +41,10 @@ h2 {
   font-size: 16px;
 }
 hr {
+  height: 1px;
   margin: 0;
+}
+.page-content {
+  padding: 88px 160px 0;
 }
 </style>

@@ -45,9 +45,7 @@ export default {}
 .default {
   margin: 0px 10px;
 }
-.page-content {
-  padding: 0 160px 64px;
-}
+
 .intro {
   padding-top: 88px;
   .img-box {
