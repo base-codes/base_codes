@@ -72,8 +72,5 @@ export default {
   .headler-error {
     font-size: 256px;
   }
-  //   .border {
-  //     border: 1px solid white;
-  //   }
 }
 </style>
