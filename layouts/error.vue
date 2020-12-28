@@ -56,7 +56,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 88px;
+    padding-top: 88px;
   }
   .home-button {
     padding: 16px 64px;

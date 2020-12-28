@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-content">
     <section class="intro">
       <div class="columns is-gapless">
         <div class="column is-12">
@@ -45,9 +45,11 @@ export default {}
 .default {
   margin: 0px 10px;
 }
+.page-content {
+  padding: 0 160px 64px;
+}
 .intro {
   padding-top: 88px;
-  padding: 0 64px;
   .img-box {
     margin-top: 330px;
     position: relative;
@@ -63,22 +65,21 @@ export default {}
       background-color: #161616;
     }
   }
-  .description{
+  .description {
     margin-top: 14px;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
   }
-  .column{
+  .column {
     color: #fff;
     margin-top: 96px;
     margin-bottom: 192px;
-    p{
+    p {
       line-height: 62px;
       font-size: 48px;
       font-weight: 200;
     }
-
   }
 }
 </style>

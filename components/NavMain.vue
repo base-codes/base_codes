@@ -49,7 +49,7 @@
   display: flex;
   justify-content: space-between;
   padding: 32px 64px;
-  background-color: #161616;
+  background-color: transparent;
   z-index: 9999;
   transform: translate3d(0, 0, 0);
   transition: 0.4s all ease-out;
