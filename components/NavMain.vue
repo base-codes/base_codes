@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="header">
+    <div class="navbar" :class="{ 'navbar--hidden': !showNavbar }">
       <div class="logo">
         <p>
           <nuxt-link to="/">
@@ -40,9 +40,9 @@
 </template>
 
 <style lang="scss">
-.header {
+.navbar {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   left: 0;
   display: flex;
@@ -50,6 +50,11 @@
   padding: 32px 64px;
   background-color: #161616;
   z-index: 9999;
+  transform: translate3d(0, 0, 0);
+  transition: 0.1s all ease-out;
+}
+.navbar.navbar--hidden {
+  transform: translate3d(0, -100%, 0);
 }
 .navButton {
   color: #fff;
@@ -130,7 +135,9 @@ nav {
 export default {
   data () {
     return {
-      withVissible: false
+      withVissible: false,
+      showNavbar: true,
+      lastScrollPosition: 0
     }
   },
   // закрытие меню после перехода на новую
@@ -138,6 +145,12 @@ export default {
     $route () {
       this.withVissible = false
       document.body.classList.remove('openedNav')
+    },
+    mounted () {
+      window.addEventListener('scroll', this.onScroll)
+    },
+    beforeDestroy () {
+      window.removeEventListener('scroll', this.onScroll)
     }
   },
   methods: {
@@ -150,6 +163,14 @@ export default {
         // включаем скролл
         document.body.classList.remove('openedNav')
       }
+    },
+    onScroll () {
+      const currentScrollPosition = window.scrollY || document.documentElement.scrollTop
+      if (currentScrollPosition < 0) {
+        return
+      }
+      this.showNavbar = currentScrollPosition < this.lastScrollPosition
+      this.lastScrollPosition = currentScrollPosition
     }
   }
 }
