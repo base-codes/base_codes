@@ -16,6 +16,7 @@ export default {
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&display=swap");
 body {
+  box-sizing: border-box;
   font-family: "IBM Plex Mono", monospace;
   background-color: #161616;
   color: #fff;

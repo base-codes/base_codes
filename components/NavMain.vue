@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="navbar" :class="{ 'navbar--hidden': !showNavbar }">
+      <!-- из статьи -->
       <div class="logo">
         <p>
           <nuxt-link to="/">
@@ -145,13 +146,8 @@ export default {
     $route () {
       this.withVissible = false
       document.body.classList.remove('openedNav')
-    },
-    mounted () {
-      window.addEventListener('scroll', this.onScroll)
-    },
-    beforeDestroy () {
-      window.removeEventListener('scroll', this.onScroll)
     }
+
   },
   methods: {
     openNav () {
@@ -171,6 +167,12 @@ export default {
       }
       this.showNavbar = currentScrollPosition < this.lastScrollPosition
       this.lastScrollPosition = currentScrollPosition
+    },
+    mounted () {
+      window.addEventListener('scroll', this.onScroll)
+    },
+    beforeDestroy () {
+      window.removeEventListener('scroll', this.onScroll)
     }
   }
 }
