@@ -52,7 +52,7 @@
   background-color: #161616;
   z-index: 9999;
   transform: translate3d(0, 0, 0);
-  transition: 0.1s all ease-out;
+  transition: 0.4s all ease-out;
 }
 .navbar.navbar--hidden {
   transform: translate3d(0, -100%, 0);

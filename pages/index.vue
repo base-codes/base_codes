@@ -46,7 +46,7 @@ export default {}
   margin: 0px 10px;
 }
 .intro {
-  margin-top: 88px;
+  padding-top: 88px;
   padding: 0 64px;
   .img-box {
     margin-top: 330px;
@@ -78,9 +78,7 @@ export default {}
       font-size: 48px;
       font-weight: 200;
     }
-    h1{
-      text-align: center;
-    }
+
   }
 }
 </style>
