@@ -46,6 +46,6 @@ hr {
   margin: 0;
 }
 .page-content {
-  padding: 88px 160px 0;
+  padding: 88px 160px 0px;
 }
 </style>
