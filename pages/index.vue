@@ -197,81 +197,77 @@ export default {}
 }
 
 .sec-intro {
-  .intro {
-    padding-top: 88px;
-
-    .img-box {
-      margin-top: 330px;
-      position: relative;
-      margin-bottom: 96px;
-      img {
-        width: 100%;
-      }
-      .intro-text {
-        position: absolute;
-        bottom: 64px;
-        left: 48px;
-        font-size: 48px;
-        background-color: #161616;
-      }
+  .img-box {
+    margin-top: 330px;
+    position: relative;
+    margin-bottom: 96px;
+    img {
+      width: 100%;
     }
-    .description {
-      margin-top: 14px;
-      font-size: 16px;
-      font-weight: 400;
-      color: #fff;
-    }
-  }
-
-  .sec-services {
-    padding-top: 192px;
-    .main-service.column {
-      border-right: 1px solid white;
-      padding-right: 32px !important;
-    }
-    .serv-row {
-      border-top: 1px solid white;
-      padding-top: 32px;
-      &:last-child {
-        border-bottom: 1px solid white;
-      }
-    }
-    .num-service {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 48px;
-      p {
-        font-size: 24px;
-      }
-    }
-    .service-title {
+    .intro-text {
+      position: absolute;
+      bottom: 64px;
+      left: 48px;
       font-size: 48px;
-      margin-top: 96px;
-    }
-    .service-description {
-      font-size: 24px;
-      font-weight: 200;
-      margin-top: 96px;
-    }
-
-    .serv-item.column {
-      padding-left: 32px !important;
-      p {
-        display: block;
-        font-size: 24px;
-        margin-top: 24px;
-        font-weight: 200;
-      }
-    }
-
-    .serv-item-title {
-      font-weight: 400 !important;
+      background-color: #161616;
     }
   }
+  .description {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+}
 
-  .sec-about {
+.sec-services {
+  padding-top: 192px;
+  .main-service.column {
+    border-right: 1px solid white;
+    padding-right: 32px !important;
+  }
+  .serv-row {
     border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    padding-top: 32px;
+    &:last-child {
+      border-bottom: 1px solid white;
+    }
   }
+  .num-service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    p {
+      font-size: 24px;
+    }
+  }
+  .service-title {
+    font-size: 48px;
+    margin-top: 96px;
+  }
+  .service-description {
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 96px;
+  }
+
+  .serv-item.column {
+    padding-left: 32px !important;
+    p {
+      display: block;
+      font-size: 24px;
+      margin-top: 24px;
+      font-weight: 200;
+    }
+  }
+
+  .serv-item-title {
+    font-weight: 400 !important;
+  }
+}
+
+.sec-about {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 </style>
