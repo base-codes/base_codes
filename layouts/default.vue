@@ -27,6 +27,7 @@ body {
 h1 {
   font-weight: 400;
   font-size: 96px;
+  text-transform: uppercase;
 }
 h2 {
   font-weight: 400;
@@ -44,7 +45,6 @@ hr {
   height: 1px;
   margin: 0;
 }
-
 .page-content {
   padding: 88px 160px 0px;
 }

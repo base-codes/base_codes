@@ -196,7 +196,12 @@ export default {}
   margin: 0px 10px;
 }
 
+
 .sec-intro {
+
+.intro {
+  padding-top: 88px;
+
   .img-box {
     margin-top: 330px;
     position: relative;
