@@ -5,7 +5,7 @@
         <div class="column is-12">
           <div class="img-box">
             <h1>Технологии и дизайн</h1>
-            <img src="~/assets/imgs/base-gif.gif">
+            <img src="~/assets/imgs/base-gif.gif" />
             <div class="intro-text">
               <p>Разработка</p>
               <p>Продвижение</p>
@@ -18,24 +18,22 @@
     <section class="sec-about">
       <div class="columns">
         <div class="column is-12">
-          <p class="description">
-            разрабатываем, продвигаем, поддерживаем
-          </p>
+          <p class="description">разрабатываем, продвигаем, поддерживаем</p>
         </div>
       </div>
 
       <div class="columns">
         <div class="column is-two-thirds">
           <p>
-            BASE.CODES УЖЕ 5 ЛЕТ НЕСЁТ<br>
-            ЦИФРОВИЗАЦИЮ В МАССЫ. КОМАНДА<br>
-            ЗНАЮЩАЯ РЕАЛИИ СОВРЕМЕННОГО БИЗНЕСА.<br>
-            МЫ ВЗРАСТИМ НОВУЮ КУЛЬТУРУ ВАШЕЙ<br>
-            ОРГАНИЗАЦИИ - КУЛЬТУРУ ТЕХНОЛОГИЙ.<br>
+            BASE.CODES УЖЕ 5 ЛЕТ НЕСЁТ<br />
+            ЦИФРОВИЗАЦИЮ В МАССЫ. КОМАНДА<br />
+            ЗНАЮЩАЯ РЕАЛИИ СОВРЕМЕННОГО БИЗНЕСА.<br />
+            МЫ ВЗРАСТИМ НОВУЮ КУЛЬТУРУ ВАШЕЙ<br />
+            ОРГАНИЗАЦИИ - КУЛЬТУРУ ТЕХНОЛОГИЙ.<br />
           </p>
         </div>
         <div class="column">
-          <h1>Build<br>[Smart]</h1>
+          <h1>Build<br />[Smart]</h1>
         </div>
       </div>
     </section>
@@ -46,9 +44,7 @@
             <p>01</p>
             <p>/04</p>
           </div>
-          <p class="service-title">
-            ВЕБ РАЗРАБОТКА
-          </p>
+          <p class="service-title">ВЕБ РАЗРАБОТКА</p>
           <p class="service-description s-desc">
             Реализуем потребные бизнес-решения используя современные
             веб-технологии. Исследуем предпочтения ваших пользователей и создаём
@@ -57,20 +53,16 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            ЦИФРОВОЙ СЛЭМ-ДАНК
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">ЦИФРОВОЙ СЛЭМ-ДАНК</p>
           <p>
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            БЫСТРЫЙ СТАРТ ПРОЕКТА
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">БЫСТРЫЙ СТАРТ ПРОЕКТА</p>
           <p>
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
@@ -83,29 +75,23 @@
             <p>02</p>
             <p>/04</p>
           </div>
-          <p class="service-title">
-            БРЕНДИНГ
-          </p>
+          <p class="service-title">БРЕНДИНГ</p>
           <p class="service-description s-desc">
             Веб-интерфейсы, фирменный стиль, гайдлайны, логотипы, индустриальный
             дизайн и многое другое. Задизайним абсолютно всё от А до Я.
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            АЙДЕНТИФИКАЦИОННЫЙ СКАЧОК
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">АЙДЕНТИФИКАЦИОННЫЙ СКАЧОК</p>
           <p>
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            СТРАТЕГИЧЕСКИЙ КАРТ-БЛАНШ
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">СТРАТЕГИЧЕСКИЙ КАРТ-БЛАНШ</p>
           <p>
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
@@ -118,9 +104,7 @@
             <p>03</p>
             <p>/04</p>
           </div>
-          <p class="service-title">
-            СОЗДАНИЕ КОНТЕНТА
-          </p>
+          <p class="service-title">СОЗДАНИЕ КОНТЕНТА</p>
           <p class="service-description s-desc">
             Реализуем потребные бизнес-решения используя современные
             веб-технологии. Исследуем предпочтения ваших пользователей и создаём
@@ -129,20 +113,16 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            AR - РАЗРАБОТКА
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">AR - РАЗРАБОТКА</p>
           <p>
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            ПОТРЕБИТЕЛЬСКИЙ ФОКУС
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">ПОТРЕБИТЕЛЬСКИЙ ФОКУС</p>
           <p>Иллююстрации, копирайт, графический интерфейс для игр.</p>
         </div>
       </div>
@@ -152,9 +132,7 @@
             <p>04</p>
             <p>/04</p>
           </div>
-          <p class="service-title">
-            ПРОДВИЖЕНИЕ
-          </p>
+          <p class="service-title">ПРОДВИЖЕНИЕ</p>
           <p class="service-description s-desc">
             Реализуем потребные бизнес-решения используя современные
             веб-технологии. Исследуем предпочтения ваших пользователей и создаём
@@ -163,20 +141,16 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            КОНТЕКСТНАЯ РЕКЛАМА
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">КОНТЕКСТНАЯ РЕКЛАМА</p>
           <p>
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
-          <p class="serv-item-title">
-            SEO BUST
-          </p>
+          <img src="~/assets/imgs/stub.jpg" alt="" />
+          <p class="serv-item-title">SEO BUST</p>
           <p>
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
@@ -197,30 +171,26 @@ export default {}
 }
 
 .sec-intro {
-  .intro {
-    padding-top: 88px;
-
-    .img-box {
-      margin-top: 330px;
-      position: relative;
-      margin-bottom: 96px;
-      img {
-        width: 100%;
-      }
-      .intro-text {
-        position: absolute;
-        bottom: 64px;
-        left: 48px;
-        font-size: 48px;
-        background-color: #161616;
-      }
+  .img-box {
+    margin-top: 330px;
+    position: relative;
+    margin-bottom: 96px;
+    img {
+      width: 100%;
     }
-    .description {
-      margin-top: 14px;
-      font-size: 16px;
-      font-weight: 400;
-      color: #fff;
+    .intro-text {
+      position: absolute;
+      bottom: 64px;
+      left: 48px;
+      font-size: 48px;
+      background-color: #161616;
     }
+  }
+  .description {
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
   }
 }
 
