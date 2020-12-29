@@ -27,6 +27,7 @@ body {
 h1 {
   font-weight: 400;
   font-size: 96px;
+  text-transform: uppercase;
 }
 h2 {
   font-weight: 400;

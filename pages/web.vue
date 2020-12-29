@@ -1,14 +1,14 @@
 <template>
   <div class="page-content">
-    <section class="web">
-      <div class="s">
-        <div class="r">
-          <p>01</p>
-          <p>/04</p>
+    <section class="intro-box">
+      <div class="column is-12">
+        <div class="title-box">
+          <div class="sheet">
+            <p>01</p>
+            <p>/04</p>
+          </div>
+          <h1>веб-разработка</h1>
         </div>
-        <h1>ВЕБ-РАЗРАБОТКА</h1>
-      </div>
-      <div class="s">
         <div class="columns">
           <div class="column is-two-thirds">
             <p>
@@ -16,17 +16,17 @@
               Качественно прототипируем. Соблюдаем сроки. Расскажите как можно больше о своём<br>
               деле, а мы в свою очередь вникнем в ваши бизнес-процессы и создадим очень<br>
               подходящий для Вас ресурс.
-              <br>
-              Закажите разработку веб-сайта прямо сейчас.
             </p>
+            <br>
+            <p>Закажите разработку веб-сайта прямо сейчас.</p>
           </div>
-          <div class="column">
-            <div class="t">
-              <a href="#">перейти к работам -></a>
-              <a class="btn" href="#popup">
-                <span>закать разработку</span>
-              </a>
-            </div>
+          <div class="column links">
+            <a href="#">
+              перейти к работам ->
+            </a>
+            <a class="btn" href="#popup">
+              заказать разработку
+            </a>
           </div>
         </div>
       </div>
@@ -35,29 +35,38 @@
 </template>
 
 <style lang="scss">
-    .r{
+    .sheet{
         display: flex;
         justify-content: space-between;
         p{
-            font-size: 96px;
-            font-weight: 400;
+          font-size: 96px;
+          font-weight: 400;
         }
     }
-    .t{
-        display: flex;
-        flex-direction: column;
+    .links{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      a{
+        color: #fff;
+      }
         .btn{
-            padding: 10px 30px;
-            text-align: center;
-            border: 1px solid #fff;
-            border-radius: 15px;
-            display: block;
-            cursor: pointer;
-            color: #fff;
+          margin-top: 25px;
+          border: 2px solid #fff;
+          padding: 10px 15px;
+          text-align: center;
+          transition: .3s ease-in;
         }
-    }
+        .btn:hover{
+            background: #fff;
+            color: #000;
+          }
 
-    .web{
-        height: calc(100vh - 88px);
-    }
+      }
+      .title-box{
+        margin-bottom: 88px;
+      }
+      .intro-box{
+          height: calc(100vh - 88px);
+      }
 </style>
