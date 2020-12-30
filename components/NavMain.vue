@@ -89,13 +89,13 @@
 }
 nav {
   width: 0;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100%;
+  height: 100vh;
   background-color: #000;
   font-size: 48px;
   font-weight: 400;
