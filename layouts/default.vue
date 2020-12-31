@@ -23,6 +23,7 @@ body {
   font-family: "IBM Plex Mono", monospace;
   background-color: #161616;
   color: #fff;
+  display: block;
 }
 h1 {
   font-weight: 400;
