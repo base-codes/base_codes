@@ -1,16 +1,14 @@
 <template>
   <div class="page-content">
     <section class="sec-intro">
-      <div class="columns is-gapless">
-        <div class="column is-12">
-          <div class="img-box">
-            <h1>Технологии и дизайн</h1>
-            <img src="~/assets/imgs/base-gif.gif">
-            <div class="intro-text">
-              <p>Разработка</p>
-              <p>Продвижение</p>
-              <p>Поддержка</p>
-            </div>
+      <div class="column is-12">
+        <div class="img-box">
+          <h1>Технологии и дизайн</h1>
+          <img src="~/assets/imgs/base-gif.gif">
+          <div class="intro-text">
+            <p>Разработка</p>
+            <p>Продвижение</p>
+            <p>Поддержка</p>
           </div>
         </div>
       </div>
@@ -57,7 +55,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/building.png" alt="">
           <p class="serv-item-title">
             ЦИФРОВОЙ СЛЭМ-ДАНК
           </p>
@@ -67,7 +65,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/shopen.png" alt="">
           <p class="serv-item-title">
             БЫСТРЫЙ СТАРТ ПРОЕКТА
           </p>
@@ -92,7 +90,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/streak.png" alt="">
           <p class="serv-item-title">
             АЙДЕНТИФИКАЦИОННЫЙ СКАЧОК
           </p>
@@ -102,7 +100,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/pickadilly.png" alt="">
           <p class="serv-item-title">
             СТРАТЕГИЧЕСКИЙ КАРТ-БЛАНШ
           </p>
@@ -129,7 +127,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/brand.png" alt="">
           <p class="serv-item-title">
             AR - РАЗРАБОТКА
           </p>
@@ -139,7 +137,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/font.png" alt="">
           <p class="serv-item-title">
             ПОТРЕБИТЕЛЬСКИЙ ФОКУС
           </p>
@@ -163,7 +161,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/advert.png" alt="">
           <p class="serv-item-title">
             КОНТЕКСТНАЯ РЕКЛАМА
           </p>
@@ -173,7 +171,7 @@
           </p>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/stub.jpg" alt="">
+          <img src="~/assets/imgs/dj.png" alt="">
           <p class="serv-item-title">
             SEO BUST
           </p>

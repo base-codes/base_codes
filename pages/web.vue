@@ -31,6 +31,51 @@
         </div>
       </div>
     </section>
+    <section class="sec-tech">
+      <div class="columns">
+        <div class="column is-12">
+          <p class="description">
+            используемые технологии
+          </p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-12">
+          <div class="technologies">
+            <div class="title">
+              VUE, NUXT, WEBPACK, GULP, SCSS
+            </div>
+            <div class="sub_title">
+              ЛЕГКО МАСШТАБИРОВАТЬ И ПОДДЕРЖИВАТЬ
+            </div>
+          </div>
+          <div class="technologies">
+            <div class="title">
+              CARBON DS, BOOTSTRAP, BULMA
+            </div>
+            <div class="sub_title">
+              ДИЗАЙН СИСТЕМЫ, КОТОРЫЕ ПОМОГАЮТ РЕАЛИЗОВАТЬ ПРОЕКТЫ ГОРАЗДО БЫСТРЕЕ
+            </div>
+          </div>
+          <div class="technologies">
+            <div class="title">
+              STORYBLOK, STRAPI, PRISMIC, TILDA
+            </div>
+            <div class="sub_title">
+              ИНТУИТИВНО ПОНЯТНЫЙ ИНТЕРФЕЙС ДЛЯ УПРАВЛЕНИЯ КОНТЕНТОМ
+            </div>
+          </div>
+          <div class="technologies">
+            <div class="title">
+              GIT
+            </div>
+            <div class="sub_title">
+              ЧТОБЫ НИЧЕГО НЕ ЛОМАЛОСЬ
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -69,4 +114,17 @@
       .intro-box{
           height: calc(100vh - 88px);
       }
+      .title{
+        font-size: 48px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 96px;
+        margin-bottom: 27px;
+      }
+      .sec-tech{
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 192px;
+      }
+
 </style>
