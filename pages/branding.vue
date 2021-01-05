@@ -191,13 +191,7 @@
 .title-box {
   margin-bottom: 88px;
 }
-.intro-box {
-  height: 100vh;
-  border-bottom: 1px solid #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 .content {
   margin: 100px 0;
   h2 {
