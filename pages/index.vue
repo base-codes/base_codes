@@ -14,11 +14,9 @@
       </div>
     </section>
     <section class="sec-about">
-      <div class="columns">
+      <div class="columns description">
         <div class="column is-12">
-          <p class="description">
-            разрабатываем, продвигаем, поддерживаем
-          </p>
+          разрабатываем, продвигаем, поддерживаем
         </div>
       </div>
 
@@ -182,6 +180,31 @@
         </div>
       </div>
     </section>
+    <section class="sec-devOps">
+      <div class="columns">
+        <div class="column is-12">
+          <p class="description">
+            с любовью к своему делу
+          </p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-half devs">
+          РАЗ<br>
+          РАБ<br>
+          ОТЧ<br>
+          ИКИ<br>
+        </div>
+        <div class="column desc">
+          BASE ПОМОГАЕТ<br>
+          БРЕНДАМ<br>
+          УВЕЛИЧИТЬ<br>
+          ПРОДАЖИ ЧЕРЕЗ<br>
+          PROGRESSIVE WEB<br>
+          APPLICATION<br>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -215,9 +238,20 @@ export default {}
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    h1{
+      text-align: center;
+    }
   }
 }
-
+.sec-about{
+  h1{
+    text-align: center;
+  }
+  p{
+    font-size: 48px;
+    font-weight: 200;
+}
+}
 .sec-services {
   padding-top: 192px;
   .main-service.column {
@@ -229,6 +263,7 @@ export default {}
     padding-top: 32px;
     &:last-child {
       border-bottom: 1px solid white;
+      padding-bottom: 32px;
     }
   }
   .num-service {
@@ -267,5 +302,18 @@ export default {}
 .sec-about {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+}
+.devs{
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 100px;
+    font-weight: 200;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200;
 }
 </style>
