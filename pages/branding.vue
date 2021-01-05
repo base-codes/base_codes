@@ -1,37 +1,39 @@
 <template>
   <div class="page-content">
     <section class="intro-box">
-      <div class="container is-fluid">
-        <div class="columns">
-          <div class="column is-12">
-            <div class="title-box">
-              <div class="sheet">
-                <p>02</p>
-                <p>/04</p>
+      <div class="intro">
+        <div class="container is-fluid">
+          <div class="columns">
+            <div class="column is-12">
+              <div class="title-box">
+                <div class="sheet">
+                  <p>02</p>
+                  <p>/04</p>
+                </div>
+                <h1>брендинг</h1>
               </div>
-              <h1>брендинг</h1>
             </div>
           </div>
-        </div>
 
-        <div class="columns">
           <div class="columns">
-            <div class="column">
-              <h2>Бренд-стратегия</h2>
-              <p>
-                Разработка и формирование платформы<br>
-                бренда, тональности и стиля общения с<br>
-                ЦА, миссия и ключевая метафора бренда,<br>
-                позиционирование бренда
-              </p>
-            </div>
-            <div class="column">
-              <h2>Айдентика</h2>
-              <p>
-                Разработка и формирование платформы бренда, тональности и стиля
-                общения с ЦА, миссия и ключевая метафора бренда,
-                позиционирование бренда
-              </p>
+            <div class="columns">
+              <div class="column">
+                <h2>Бренд-стратегия</h2>
+                <p>
+                  Разработка и формирование платформы<br>
+                  бренда, тональности и стиля общения с<br>
+                  ЦА, миссия и ключевая метафора бренда,<br>
+                  позиционирование бренда
+                </p>
+              </div>
+              <div class="column">
+                <h2>Айдентика</h2>
+                <p>
+                  Разработка и формирование платформы бренда, тональности и
+                  стиля общения с ЦА, миссия и ключевая метафора бренда,
+                  позиционирование бренда
+                </p>
+              </div>
             </div>
           </div>
 
@@ -155,6 +157,10 @@
     font-weight: 400;
   }
 }
+
+// .intro {
+
+// }
 .sheet {
   display: flex;
   justify-content: space-between;
@@ -186,8 +192,11 @@
   margin-bottom: 88px;
 }
 .intro-box {
-  height: calc(100vh - 88px);
+  height: 100vh;
   border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .content {
   margin: 100px 0;

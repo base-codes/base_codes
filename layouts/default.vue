@@ -49,7 +49,15 @@ hr {
   height: 1px;
   margin: 0;
 }
-.page-content {
-  padding: 88px 160px 0px;
+// .page-content {
+//   padding: 88px 160px 0px;
+// }
+
+.intro-box {
+  height: 100vh;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>
