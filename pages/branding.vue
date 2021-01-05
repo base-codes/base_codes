@@ -2,7 +2,7 @@
   <div class="page-content">
     <section class="intro-box">
       <div class="intro">
-        <div class="container is-fluid">
+        <div class="container is-full">
           <div class="columns">
             <div class="column is-12">
               <div class="title-box">
