@@ -29,11 +29,11 @@
         <nuxt-link to="/branding">
           Брендинг
         </nuxt-link>
-        <nuxt-link to="/promotion">
-          Продвижение
-        </nuxt-link>
         <nuxt-link to="/content">
           Создание контента
+        </nuxt-link>
+        <nuxt-link to="/promotion">
+          Продвижение
         </nuxt-link>
       </div>
     </nav>
