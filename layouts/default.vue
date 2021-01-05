@@ -50,8 +50,14 @@ hr {
   margin: 0;
 }
 // .page-content {
-//   padding: 88px 160px 0px;
+//   padding: 0px 128px;
 // }
+
+@media (min-width: 1199.98px) {
+  .page-content {
+    padding: 0px 128px;
+  }
+}
 
 .intro-box {
   height: 100vh;
@@ -60,4 +66,9 @@ hr {
   flex-direction: column;
   justify-content: center;
 }
+
+// .container.is-fluid {
+//   padding-left: 160px !important;
+//   padding-right: 160px !important;
+// }
 </style>
