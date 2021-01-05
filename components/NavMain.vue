@@ -127,7 +127,7 @@ nav {
 //отключение скрола при открытой навигации
 .openedNav {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 </style>
