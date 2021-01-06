@@ -134,11 +134,11 @@ hr {
 //   padding: 0px 128px;
 // }
 
-// @media (min-width: 1199.98px) {
-//   .page-content {
-//     padding: 0px 128px;
-//   }
-// }
+@media (min-width: 1199.98px) {
+  .page-content {
+    padding: 0px 128px;
+  }
+}
 
 .intro-box {
   height: 100vh;
