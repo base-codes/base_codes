@@ -302,6 +302,8 @@ export default {}
 .sec-about {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  padding: 0px 20px;
+  box-sizing: content-box;
 }
 .devs{
     padding-left: 100px;
@@ -315,5 +317,9 @@ export default {}
     align-items: center;
     font-size: 60px;
     font-weight: 200;
+}
+.page-content{
+  padding: 0px 20px;
+  margin: 0px 160px;
 }
 </style>
