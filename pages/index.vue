@@ -1,40 +1,118 @@
 <template>
   <div class="page-content">
     <section class="sec-intro">
-      <div class="column is-12">
-        <div class="img-box">
-          <h1>Технологии и дизайн</h1>
-          <img src="~/assets/imgs/base-gif.gif">
-          <div class="intro-text">
-            <p>Разработка</p>
-            <p>Продвижение</p>
-            <p>Поддержка</p>
+      <div class="columns is-gapless">
+        <div class="column is-12">
+          <div class="img-box">
+            <h1>Технологии и дизайн</h1>
+            <img src="~/assets/imgs/base-gif.gif">
+            <div class="intro-text">
+              <p>Разработка</p>
+              <p>Продвижение</p>
+              <p>Поддержка</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="sec-about">
-      <div class="columns description">
+      <div class="columns description is-gapless">
         <div class="column is-12">
           разрабатываем, продвигаем, поддерживаем
         </div>
       </div>
 
-      <div class="columns">
+      <div class="columns about-row">
         <div class="column is-two-thirds">
-          <p>
+          <p class="about-main">
             BASE.CODES УЖЕ 5 ЛЕТ НЕСЁТ<br>
             ЦИФРОВИЗАЦИЮ В МАССЫ. КОМАНДА<br>
             ЗНАЮЩАЯ РЕАЛИИ СОВРЕМЕННОГО БИЗНЕСА.<br>
             МЫ ВЗРАСТИМ НОВУЮ КУЛЬТУРУ ВАШЕЙ<br>
-            ОРГАНИЗАЦИИ - КУЛЬТУРУ ТЕХНОЛОГИЙ.<br>
+            ОРГАНИЗАЦИИ - КУЛЬТУРУ ТЕХНОЛОГИЙ<br>
           </p>
         </div>
-        <div class="column">
-          <h1>Build<br>[Smart]</h1>
+        <div class="column slogan-col">
+          <p class="slogan">
+            Build<br>[ Smart ]
+          </p>
         </div>
       </div>
     </section>
+
+    <section class="clients">
+      <div class="columns is-gapless">
+        <div class="column is-12">
+          <p>Постоянные клиенты</p>
+        </div>
+        <div class="carousel__wrap">
+          <div
+            class="carousel__stage"
+            style="height: 479px; transform: translate3d(-1500.02px, 0px, 0px)"
+          >
+            <ul>
+              <li>
+                <div class="asset" data-index="6">
+                  <div class="asset__wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 272 92"
+                      width="272"
+                      height="92"
+                      preserveAspectRatio=""
+                    />
+                    <figure
+                      data-type="image"
+                      data-src="https://basic-admin.basicagency.com/uploads/google-dark.svg"
+                      data-alt=""
+                    />
+                    <img
+                      alt=""
+                      src="https://basic-admin.basicagency.com/uploads/google-dark.svg"
+                    >
+                  </div>
+                </div>
+                <h5>Google</h5>
+                <p>
+                  Our embedded partnership with Google is as deep as it gets.
+                  We’re the lead creative agency for Google Store and provide
+                  strategy, design, and prototyping to other divisions.<br>
+                </p>
+              </li>
+              <li>
+                <div class="asset" data-index="6">
+                  <div class="asset__wrapper">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 272 92"
+                      width="272"
+                      height="92"
+                      preserveAspectRatio=""
+                    />
+                    <figure
+                      data-type="image"
+                      data-src="https://basic-admin.basicagency.com/uploads/google-dark.svg"
+                      data-alt=""
+                    />
+                    <img
+                      alt=""
+                      src="https://basic-admin.basicagency.com/uploads/google-dark.svg"
+                    >
+                  </div>
+                </div>
+                <h5>Google</h5>
+                <p>
+                  Our embedded partnership with Google is as deep as it gets.
+                  We’re the lead creative agency for Google Store and provide
+                  strategy, design, and prototyping to other divisions.<br>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="sec-services">
       <div class="columns is-gapless serv-row">
         <div class="column main-service">
@@ -213,6 +291,32 @@ export default {}
 </script>
 
 <style lang="scss">
+.carousel__wrap {
+  overflow: visible;
+  left: 0;
+  ul {
+    // display: block;
+    list-style: none;
+    pointer-events: all;
+    white-space: nowrap;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    li {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      height: auto;
+      width: 300px;
+      padding-right: 1rem;
+      opacity: 1;
+      white-space: normal;
+    }
+  }
+}
+
 .default {
   margin: 0px 10px;
 }
@@ -238,19 +342,19 @@ export default {}
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    h1{
+    h1 {
       text-align: center;
     }
   }
 }
-.sec-about{
-  h1{
+.sec-about {
+  h1 {
     text-align: center;
   }
-  p{
+  p {
     font-size: 48px;
     font-weight: 200;
-}
+  }
 }
 .sec-services {
   padding-top: 192px;
@@ -302,23 +406,44 @@ export default {}
 .sec-about {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  padding: 0px 20px;
+  padding: 20px 0px;
   box-sizing: content-box;
-}
-.devs{
-    padding-left: 100px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    font-size: 100px;
-    font-weight: 200;
-}
-.desc{
+  .about-main {
+    line-height: 48px;
+    font-size: 32px;
+  }
+  .about-row {
+    padding-top: 96px;
+    padding-bottom: 132px;
+  }
+  .slogan-col {
     display: flex;
-    align-items: center;
-    font-size: 60px;
-    font-weight: 200;
+    justify-content: center;
+    align-content: flex-end;
+    flex-direction: column;
+  }
+  .slogan {
+    display: block;
+    font-weight: 500;
+    text-align: center;
+    font-size: 64px;
+    line-height: 72px;
+  }
 }
-.page-content{
+.devs {
+  padding-left: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-size: 100px;
+  font-weight: 200;
+}
+.desc {
+  display: flex;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 200;
+}
+.page-content {
   padding: 0px 20px;
   margin: 0px 160px;
 }
