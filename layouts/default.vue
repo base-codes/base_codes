@@ -19,11 +19,15 @@ export default {
 </script>
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&display=swap");
+
+$gap: 96px;
+@import '~bulma/bulma';
 * {
   box-sizing: border-box;
   user-select: none;
   z-index: 1;
 }
+
 .page-noise {
   // background: #161616;
   width: 100%;
@@ -118,6 +122,9 @@ h2 {
   font-weight: 400;
   font-size: 48px;
 }
+h3{
+  margin-top: 10px;
+}
 .content {
   font-weight: 200;
   font-size: 24px;
@@ -148,8 +155,4 @@ hr {
   justify-content: center;
 }
 
-// .container.is-fluid {
-//   padding-left: 160px !important;
-//   padding-right: 160px !important;
-// }
 </style>

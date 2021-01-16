@@ -3,7 +3,7 @@
     <h2>УСТАНОВИТЬ КОНТАКТ</h2>
     <div class="columns footerx">
       <div class="column is-8">
-        <div class="columns is gapless">
+        <div class="columns is-gapless">
           <div class="column is-4 content">
             Социальные сети
           </div>
@@ -13,7 +13,7 @@
             <a class="socials" href="#">Behance</a>
           </div>
         </div>
-        <div class="columns is gapless">
+        <div class="columns is-gapless">
           <div class="column is-4 content">
             Контактные данные
           </div>
@@ -23,7 +23,7 @@
             </a>
           </div>
         </div>
-        <div class="columns is gapless">
+        <div class="columns is-gapless">
           <div class="column is-4 content">
             Напишите нам
           </div>

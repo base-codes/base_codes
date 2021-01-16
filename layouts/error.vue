@@ -51,7 +51,6 @@ export default {
 <style lang="scss">
 .error-wrapper {
   height: 100vh;
-
   .error-block {
     height: 88%;
     display: flex;

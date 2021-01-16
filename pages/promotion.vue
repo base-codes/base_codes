@@ -1,37 +1,33 @@
 <template>
-  <div class="page-content">
-    <section class="intro-box">
-      <div class="column is-12">
-        <div class="title-box">
-          <div class="sheet">
+  <div class="container is-fluid">
+    <section class="introduction">
+      <div class="columns">
+        <div class="column is-12">
+          <div class="columns is-gapless numbers">
             <p>04</p>
             <p>/04</p>
           </div>
-          <h1>продвижение</h1>
-        </div>
-        <div class="columns">
-          <div class="column is-two-thirds">
-            <p>
-              Разработка и продвижение веб-сайтов, веб-приложений, интернет магазинов.<br>
-              Качественно прототипируем. Соблюдаем сроки. Расскажите как можно больше о своём<br>
-              деле, а мы в свою очередь вникнем в ваши бизнес-процессы и создадим очень<br>
-              подходящий для Вас ресурс.
-            </p>
-            <br>
-            <p>Закажите разработку веб-сайта прямо сейчас.</p>
-          </div>
-          <div class="column links">
-            <a href="#">
-              перейти к работам ->
-            </a>
-            <a class="btn" href="#popup">
-              заказать услугу
-            </a>
+          <div class="columns is-gapless">
+            <h1>продвижение</h1>
           </div>
         </div>
       </div>
-    </section>
-    <div class="column is-12">
+      <div class="columns">
+        <div class="column is-8">
+          <p>
+            Разработка и продвижение веб-сайтов, веб-приложений, интернет магазинов.<br>
+            Качественно прототипируем. Соблюдаем сроки. Расскажите как можно больше о своём<br>
+            деле, а мы в свою очередь вникнем в ваши бизнес-процессы и создадим очень<br>
+            подходящий для Вас ресурс.
+          </p>
+          <br>
+          <p>Закажите разработку веб-сайта прямо сейчас.</p>
+        </div>
+        <div class="column is-4 links">
+          <a href="#"> перейти к работам -> </a>
+          <a class="btn" href="#popup"> заказать разработку </a>
+        </div>
+      </div>
       <div class="img-box">
         <img src="~/assets/imgs/Jpn.png">
         <div class="intro-text">
@@ -41,7 +37,9 @@
           </h1>
         </div>
       </div>
-    </div>
+    </section>
+  </div>
+  <!--
     <section class="cases">
       <div class="columns">
         <div class="column">
@@ -77,13 +75,42 @@
         </div>
       </div>
     </section>
-  </div>
+  </div> -->
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+// new-verstka
+.boxs{
+  padding:100px 0px 200px 0px;
+  border-bottom: 1px solid #fff ;
+}
+.numbers{
+  font-size: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  a {
+    color: #fff;
+  }
+  .btn {
+    margin-top: 25px;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.3s ease-in;
+  }
+  .btn:hover {
+    background: #fff;
+    color: #000;
+  }
+}
     .img-box {
     position: relative;
-    margin-bottom: 100px;
+    margin: 150px 0px 100px 0px;
     img {
       width: 100%;
     }

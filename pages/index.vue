@@ -1,5 +1,5 @@
 <template>
-  <div class="page-content">
+  <div class="container is-fluid">
     <section class="sec-intro">
       <div class="columns is-gapless">
         <div class="column is-12">
@@ -129,6 +129,7 @@
             интерфейсы, айдентику иллюстрации, которые не только отражают стиль,
             но и повышают метрики.
           </p>
+          <a href="#"> перейти к работам -> </a>
         </div>
         <div class="column serv-item">
           <img src="~/assets/imgs/building.png" alt="">
@@ -164,6 +165,7 @@
             Веб-интерфейсы, фирменный стиль, гайдлайны, логотипы, индустриальный
             дизайн и многое другое. Задизайним абсолютно всё от А до Я.
           </p>
+          <a href="#"> перейти к работам -> </a>
         </div>
         <div class="column serv-item">
           <img src="~/assets/imgs/streak.png" alt="">
@@ -201,6 +203,7 @@
             интерфейсы, айдентику иллюстрации, которые не только отражают стиль,
             но и повышают метрики.
           </p>
+          <a href="#"> перейти к работам -> </a>
         </div>
         <div class="column serv-item">
           <img src="~/assets/imgs/brand.png" alt="">
@@ -235,6 +238,7 @@
             интерфейсы, айдентику иллюстрации, которые не только отражают стиль,
             но и повышают метрики.
           </p>
+          <a href="#"> перейти к работам -> </a>
         </div>
         <div class="column serv-item">
           <img src="~/assets/imgs/advert.png" alt="">
@@ -291,6 +295,7 @@ export default {}
 </script>
 
 <style lang="scss">
+
 .carousel__wrap {
   overflow: visible;
   left: 0;
@@ -361,6 +366,12 @@ export default {}
   .main-service.column {
     border-right: 1px solid white;
     padding-right: 32px !important;
+    a{
+      color:#fff;
+      &:hover{
+        color: gray;
+      }
+    }
   }
   .serv-row {
     border-top: 1px solid white;
@@ -385,7 +396,7 @@ export default {}
   .service-description {
     font-size: 24px;
     font-weight: 200;
-    margin-top: 96px;
+    margin: 96px 0px 30px 0px;
   }
 
   .serv-item.column {
@@ -419,8 +430,8 @@ export default {}
   .slogan-col {
     display: flex;
     justify-content: center;
-    align-content: flex-end;
     flex-direction: column;
+    align-items: flex-end;
   }
   .slogan {
     display: block;
