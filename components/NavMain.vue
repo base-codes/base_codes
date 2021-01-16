@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="navbars" :class="{'navbar--hidden': !showNavbar}">
+    <div class="navbars" :class="{ 'navbar--hidden': !showNavbar }">
       <!-- из статьи -->
       <div class="logo">
         <p>
@@ -64,9 +64,21 @@
                 <input class="input" type="text" placeholder="E-mail">
                 <input class="input" type="text" placeholder="Компания">
                 <input class="input" type="text" placeholder="Должность">
-                <input class="input" type="text" placeholder="Ваш веб-сайт (при наличии)">
-                <input class="input" type="text" placeholder="Планируемый бюджет">
-                <input class="input messege" type="text" placeholder="Опишите задачу или прикрипите файл с описанием">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Ваш веб-сайт (при наличии)"
+                >
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Планируемый бюджет"
+                >
+                <input
+                  class="input messege"
+                  type="text"
+                  placeholder="Опишите задачу или прикрипите файл с описанием"
+                >
               </div>
             </div>
             <div class="column is-9">
@@ -139,15 +151,13 @@
                 </div>
               </div>
               <p>
-                Отправляя заявку, вы соглашаетесь с нашей
-                политикой обработки персональных данных.
+                Отправляя заявку, вы соглашаетесь с нашей политикой обработки
+                персональных данных.
               </p>
             </div>
           </div>
           <div class="send">
-            <a href="#" class="send-form">
-              Отправить заявку
-            </a>
+            <a href="#" class="send-form"> Отправить заявку </a>
           </div>
         </section>
       </div>
@@ -156,92 +166,91 @@
 </template>
 
 <style lang="scss">
-h3{
+h3 {
   margin-top: 10px;
 }
-.categ{
+.categ {
   padding-left: 15px;
   margin-top: 30px;
 }
-.send{
+.send {
   display: flex;
   justify-content: center;
   cursor: pointer;
-.send-form{
-  border: 1px solid #fff;
-  padding: 10px;
-  color: #fff;
-  font-size: 24px;
-  transition: .4s ease-in-out;
-    &:hover{
-    background: #fff;
-    color: #000;
+  .send-form {
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
   }
-  }
-
 }
-.brief-container{
+.brief-container {
   height: 100vh;
 }
-.brief{
+.brief {
   margin-top: 150px;
 }
-.control{
-  .input{
-    background:none;
+.control {
+  .input {
+    background: none;
     color: #fff;
     outline: 0 !important;
     box-shadow: none;
-  &::placeholder{
+    &::placeholder {
       color: #fff;
     }
   }
 }
-.category{
+.category {
   margin-bottom: 30px;
-  &:last-child{
+  &:last-child {
     margin-bottom: 0px;
   }
 }
-.sec-serv{
-  outline:1px solid #fff;
-  outline-offset:-0.75rem;
-  a{
+.sec-serv {
+  outline: 1px solid #fff;
+  outline-offset: -0.75rem;
+  a {
     color: #fff;
     display: flex;
     justify-content: flex-end;
-    padding: 20px 10px 20px 0px ;
+    padding: 20px 10px 20px 0px;
   }
-  .sec-serv-col{
-    outline:1px solid #fff;
-    outline-offset:-0.75rem;
+  .sec-serv-col {
+    outline: 1px solid #fff;
+    outline-offset: -0.75rem;
   }
 }
-.nav-items{
+.nav-items {
   display: flex;
   color: #fff;
-  .item{
+  .item {
     margin-right: 10px;
-    a{
+    a {
       color: #fff;
-      &:hover{
+      &:hover {
         color: #606060;
       }
     }
   }
 }
-.item:last-child{
-      margin-right: 0;
+.item:last-child {
+  margin-right: 0;
 }
 
-.navbars{
+.navbars {
   position: fixed;
   width: 100vw;
   top: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
-  padding: 32px 16px;
+  padding: 32px 96px;
   background-color: transparent;
   z-index: 9999;
   transform: translate3d(0, 0, 0);
@@ -308,7 +317,6 @@ nav {
       text-transform: uppercase;
     }
   }
-
   a:hover {
     color: #fff;
   }
