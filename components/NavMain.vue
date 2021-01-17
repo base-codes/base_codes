@@ -44,25 +44,18 @@
         <span :class="withVissible ? '' : 'hideX'" class="btnMenu">X</span>
       </div>
     </div>
+
     <nav :class="withVissible ? 'fadeIn' : ''" class="">
       <div class="container is-fluid brief-container">
         <section class="brief">
           <h1>заполнить бриф</h1>
-          <!-- <div class="columns">
-            <div class="column is-4">
-              <p>компания</p>
-              <p>частное лицо</p>
-            </div>
-            <div class="column is-8">
-              услуга
-            </div>
-          </div> -->
           <div class="columns">
             <div class="column is-3">
               <div class="control">
                 <input class="input" type="text" placeholder="Как вас зовут">
                 <input class="input" type="text" placeholder="E-mail">
                 <input class="input" type="text" placeholder="Компания">
+
                 <input class="input" type="text" placeholder="Должность">
                 <input
                   class="input"
@@ -256,7 +249,7 @@ h3 {
   transform: translate3d(0, 0, 0);
   transition: 0.4s all ease-out;
 }
-.navbar.navbar--hidden {
+.navbars.navbar--hidden {
   transform: translate3d(0, -100%, 0);
 }
 .navButton {
@@ -298,7 +291,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh;
+  height: 100%;
   background-color: #000;
   font-size: 16px;
   font-weight: 400;
@@ -368,8 +361,12 @@ export default {
     onScroll () {
       const currentScrollPosition = window.scrollY || document.documentElement.scrollTop
       if (currentScrollPosition < 0) {
+        console.log(this.showNavbar)
+        console.log(currentScrollPosition)
         return
       }
+      console.log(this.showNavbar + 'yes second')
+      console.log(currentScrollPosition + 'second second')
       this.showNavbar = currentScrollPosition < this.lastScrollPosition
       this.lastScrollPosition = currentScrollPosition
     }

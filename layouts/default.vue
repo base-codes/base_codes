@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="for-scroll">
     <div class="page-noise" />
     <nav-main />
     <Nuxt />
@@ -18,10 +18,11 @@ export default {
 }
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&display=swap");
-
 $gap: 96px;
-@import '~bulma/bulma';
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&display=swap");
+@import "~bulma/bulma";
+
 * {
   box-sizing: border-box;
   user-select: none;
@@ -122,7 +123,7 @@ h2 {
   font-weight: 400;
   font-size: 48px;
 }
-h3{
+h3 {
   margin-top: 10px;
 }
 .content {
@@ -155,4 +156,7 @@ hr {
   justify-content: center;
 }
 
+body {
+  position: relative;
+}
 </style>
