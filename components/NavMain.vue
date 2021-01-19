@@ -78,7 +78,11 @@
               <div class="columns sec-serv">
                 <div class="column is-3 sec-serv-col">
                   <div class="column is-gapless">
-                    <a class="item" href="#" @click="toggleElement">Веб-разработка</a>
+                    <a
+                      class="item"
+                      href="#"
+                      @click="toggleElement"
+                    >Веб-разработка</a>
                   </div>
                   <div class="column is-gapless">
                     <a class="item" href="#">Брендинг</a>
@@ -96,10 +100,10 @@
                     <a class="item" href="#">Линчивание</a>
                   </div>
                 </div>
-                <div v-if="isVisible" class="column is-9">
+                <div class="column is-9">
                   <div class="columns">
                     <div class="column">
-                      <h3>Айдентификационный скачёк</h3>
+                      <h3>{{ serviceitems[itemV].title_first }}</h3>
                       <div class="categ">
                         <div class="category">
                           <label for="vue">Vue</label>
@@ -120,7 +124,7 @@
                       </div>
                     </div>
                     <div class="column">
-                      <h3>Быстрый старт-проекта</h3>
+                      <h3>{{ serviceitems[itemV].title_sec }}</h3>
                       <div class="categ">
                         <div class="category">
                           <label for="tilda">Tilda</label>
@@ -164,8 +168,7 @@
 </template>
 
 <style lang="scss">
-
-.item{
+.item {
   color: #fff;
   display: flex;
   justify-content: left;
@@ -337,7 +340,23 @@ export default {
       withVissible: false,
       showNavbar: true,
       lastScrollPosition: 0,
-      isVisible: false
+      itemV: 0,
+      serviceitems: [
+        {
+          title_first: 'Цифровой слэм-данк',
+          title_sec: 'Быстрый старт проекта'
+
+        },
+        {
+          title_first: 'Айдентификационный скачок',
+          title_sec: 'Стратегический карт-бланш'
+        },
+        {
+          title_first: 'Айдентификационный скачок',
+          title_sec: 'Стратегический карт-бланш'
+        }
+      ]
+
     }
   },
   // закрытие меню после перехода на новую
