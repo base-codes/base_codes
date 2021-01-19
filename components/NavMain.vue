@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="navbars" :class="{ 'navbar--hidden': !showNavbar }">
+    <div class="navbars" :style=" {background: withVissible ? 'transparent': ''} " :class="{ 'navbar--hidden': !showNavbar }">
+      <div v-if="!withVissible" class="page-noise" />
       <!-- из статьи -->
       <div class="logo">
         <p>
@@ -9,7 +10,7 @@
           </nuxt-link>
         </p>
       </div>
-      <ul class="nav-items">
+      <ul v-if="!withVissible" class="nav-items">
         <li class="item">
           <nuxt-link to="/">
             Главная
@@ -81,17 +82,17 @@
                     <a
                       class="item"
                       href="#"
-                      @click="toggleElement"
+                      @click="toggle_web"
                     >Веб-разработка</a>
                   </div>
                   <div class="column is-gapless">
-                    <a class="item" href="#">Брендинг</a>
+                    <a class="item" href="#" @click="toggle_branding">Брендинг</a>
                   </div>
                   <div class="column is-gapless">
-                    <a class="item" href="#">Продвижение</a>
+                    <a class="item" href="#" @click="toggle_prom">Продвижение</a>
                   </div>
                   <div class="column is-gapless">
-                    <a class="item" href="#">Создание контента</a>
+                    <a class="item" href="#" @click="toggle_content">Создание контента</a>
                   </div>
                   <div class="column is-gapless">
                     <a class="item" href="#">Аутсорс</a>
@@ -159,7 +160,7 @@
             </div>
           </div>
           <div class="send">
-            <a href="#" class="send-form"> Отправить заявку </a>
+            <a href="#" class="send-form"> Отправить запрос </a>
           </div>
         </section>
       </div>
@@ -246,6 +247,7 @@ h3 {
 }
 
 .navbars {
+  background-color: #161616;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -253,10 +255,10 @@ h3 {
   display: flex;
   justify-content: space-between;
   padding: 32px 96px;
-  background-color: transparent;
   z-index: 9999;
   transform: translate3d(0, 0, 0);
-  transition: 0.4s all ease-out;
+  transition:  transform 0.4s all ease-out;
+  overflow: hidden;
 }
 .navbars.navbar--hidden {
   transform: translate3d(0, -100%, 0);
@@ -332,6 +334,84 @@ nav {
   height: 100vh;
   overflow: hidden;
 }
+.page-noise {
+  // background: #161616;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
+.page-noise:after {
+  content: "";
+  background-image: url("../assets/imgs/noise.png");
+  top: -100%;
+  left: -50%;
+  height: 300%;
+  width: 300%;
+  // opacity: 0.9;
+  position: fixed;
+  animation: grains 8s steps(10) infinite;
+}
+@keyframes grains {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  10% {
+    -webkit-transform: translate(-5%, -5%);
+    transform: translate(-5%, -5%);
+  }
+
+  20% {
+    -webkit-transform: translate(-10%, 5%);
+    transform: translate(-10%, 5%);
+  }
+
+  30% {
+    -webkit-transform: translate(5%, -10%);
+    transform: translate(5%, -10%);
+  }
+
+  40% {
+    -webkit-transform: translate(-5%, 15%);
+    transform: translate(-5%, 15%);
+  }
+
+  50% {
+    -webkit-transform: translate(-10%, 5%);
+    transform: translate(-10%, 5%);
+  }
+
+  60% {
+    -webkit-transform: translate(15%, 0);
+    transform: translate(15%, 0);
+  }
+
+  70% {
+    -webkit-transform: translate(0, 10%);
+    transform: translate(0, 10%);
+  }
+
+  80% {
+    -webkit-transform: translate(-15%, 0);
+    transform: translate(-15%, 0);
+  }
+
+  90% {
+    -webkit-transform: translate(10%, 5%);
+    transform: translate(10%, 5%);
+  }
+
+  to {
+    -webkit-transform: translate(5%, 0);
+    transform: translate(5%, 0);
+  }
+}
 </style>
 <script>
 export default {
@@ -352,8 +432,17 @@ export default {
           title_sec: 'Стратегический карт-бланш'
         },
         {
-          title_first: 'Айдентификационный скачок',
-          title_sec: 'Стратегический карт-бланш'
+          title_first: 'Информационный предел',
+          title_sec: 'Презентации со вкусом'
+        },
+        {
+          title_first: 'Контекстная реклама',
+          title_sec: 'SEO Bust'
+
+        },
+        {
+          title_first: 'Информационный предел',
+          title_sec: 'Презентации со вкусом'
         }
       ]
 
@@ -398,6 +487,18 @@ export default {
     },
     toggleElement () {
       this.isVisible = !this.isVisible
+    },
+    toggle_web () {
+      this.itemV = 0
+    },
+    toggle_branding () {
+      this.itemV = 1
+    },
+    toggle_prom () {
+      this.itemV = 2
+    },
+    toggle_content () {
+      this.itemV = 3
     }
   }
 }
