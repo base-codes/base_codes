@@ -14,7 +14,4 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .accordion-body{
-    
-  }
 </style>

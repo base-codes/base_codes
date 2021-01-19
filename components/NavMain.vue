@@ -175,7 +175,7 @@
   justify-content: left;
 }
 h3 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .categ {
   padding-left: 15px;
