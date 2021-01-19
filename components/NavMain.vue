@@ -78,68 +78,73 @@
               <div class="columns sec-serv">
                 <div class="column is-3 sec-serv-col">
                   <div class="column is-gapless">
-                    <label for="web">веб-разработка</label>
-                    <input id="web" type="checkbox" name="">
+                    <a class="item" href="#" @click="toggleElement">Веб-разработка</a>
                   </div>
                   <div class="column is-gapless">
-                    <label for="branding">Брендинг</label>
-                    <input id="branding" type="checkbox" name="">
+                    <a class="item" href="#">Брендинг</a>
                   </div>
                   <div class="column is-gapless">
-                    <label for="prom">Продвижение</label>
-                    <input id="prom" type="checkbox" name="">
+                    <a class="item" href="#">Продвижение</a>
                   </div>
                   <div class="column is-gapless">
-                    <label for="content">Создание контента</label>
-                    <input id="content" type="checkbox" name="">
+                    <a class="item" href="#">Создание контента</a>
                   </div>
                   <div class="column is-gapless">
-                    <label for="outsource">Аутсорс</label>
-                    <input id="outsource" type="checkbox" name="">
+                    <a class="item" href="#">Аутсорс</a>
                   </div>
                   <div class="column is-gapless">
-                    <label for="lichivanie">Линчивание</label>
-                    <input id="lichivanie" type="checkbox" name="">
-                  </div>
-                  <a href="#">Продолжить -></a>
-                </div>
-                <div class="column">
-                  <h3>Айдентификационный скачёк</h3>
-                  <div class="categ">
-                    <p class="category">
-                      Vue.js
-                    </p>
-                    <p class="category">
-                      React.js
-                    </p>
-                    <p class="category">
-                      1C-Bitrix
-                    </p>
-                    <p class="category">
-                      Другое...
-                    </p>
+                    <a class="item" href="#">Линчивание</a>
                   </div>
                 </div>
-                <div class="column">
-                  <h3>Быстрый старт-проекта</h3>
-                  <div class="categ">
-                    <p class="category">
-                      Tilda
-                    </p>
-                    <p class="category">
-                      Webflow
-                    </p>
-                  </div>
-                </div>
-                <div class="column">
-                  <h3>Дополнительные услуги</h3>
-                  <div class="categ">
-                    <p class="category">
-                      Tilda
-                    </p>
-                    <p class="category">
-                      Webflow
-                    </p>
+                <div v-if="isVisible" class="column is-9">
+                  <div class="columns">
+                    <div class="column">
+                      <h3>Айдентификационный скачёк</h3>
+                      <div class="categ">
+                        <div class="category">
+                          <label for="vue">Vue</label>
+                          <input id="vue" type="checkbox">
+                        </div>
+                        <div class="category">
+                          <label for="react">React</label>
+                          <input id="react" type="checkbox">
+                        </div>
+                        <div class="category">
+                          <label for="bitrix">1C-Bitrix</label>
+                          <input id="bitrix" type="checkbox">
+                        </div>
+                        <div class="category">
+                          <label for="smthelse">Другое</label>
+                          <input id="smthelse" type="checkbox">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <h3>Быстрый старт-проекта</h3>
+                      <div class="categ">
+                        <div class="category">
+                          <label for="tilda">Tilda</label>
+                          <input id="tilda" type="checkbox">
+                        </div>
+                        <div class="category">
+                          <label for="webflow">Webflow</label>
+                          <input id="webflow" type="checkbox">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <h3>Дополнительные услуги</h3>
+                      <div class="categ">
+                        <div class="category">
+                          <label for="tilda">Tilda</label>
+                          <input id="tilda" type="checkbox">
+                        </div>
+                        <div class="category">
+                          <label for="webflow">Webflow</label>
+                          <input id="webflow" type="checkbox">
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -159,6 +164,12 @@
 </template>
 
 <style lang="scss">
+
+.item{
+  color: #fff;
+  display: flex;
+  justify-content: left;
+}
 h3 {
   margin-top: 10px;
 }
@@ -208,12 +219,7 @@ h3 {
 .sec-serv {
   outline: 1px solid #fff;
   outline-offset: -0.75rem;
-  a {
-    color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px 10px 20px 0px;
-  }
+
   .sec-serv-col {
     outline: 1px solid #fff;
     outline-offset: -0.75rem;
@@ -330,7 +336,8 @@ export default {
     return {
       withVissible: false,
       showNavbar: true,
-      lastScrollPosition: 0
+      lastScrollPosition: 0,
+      isVisible: false
     }
   },
   // закрытие меню после перехода на новую
@@ -369,6 +376,9 @@ export default {
       console.log(currentScrollPosition + 'second second')
       this.showNavbar = currentScrollPosition < this.lastScrollPosition
       this.lastScrollPosition = currentScrollPosition
+    },
+    toggleElement () {
+      this.isVisible = !this.isVisible
     }
   }
 }
