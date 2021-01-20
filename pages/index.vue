@@ -129,27 +129,30 @@
             интерфейсы, айдентику иллюстрации, которые не только отражают стиль,
             но и повышают метрики.
           </p>
-          <a href="#"> перейти к работам -> </a>
+          <a href="#"> Подробнее -> </a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/building.png" alt="">
           <p class="serv-item-title">
             ЦИФРОВОЙ СЛЭМ-ДАНК
           </p>
-          <p>
-            Реализуем потребные бизнес-решения используя современные
-            веб-технологии.
+          <img src="~/assets/imgs/rock_1.png" alt="">
+          <p class="content">
+            Веб-сайты, интернет-магазины, веб приложения. Комплексная разработка на VueJS или React на фронте. Популярные CMS - 1С-Bitrix, Headless CMS
+            Storyblok или Strapi на бэкэнде.
           </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/shopen.png" alt="">
           <p class="serv-item-title">
             БЫСТРЫЙ СТАРТ ПРОЕКТА
           </p>
-          <p>
+          <img src="~/assets/imgs/rock_2.png" alt="">
+
+          <p class="content">
             Реализуем потребные бизнес-решения используя современные
             веб-технологии.
           </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
       </div>
       <div class="columns is-gapless serv-row">
@@ -165,27 +168,31 @@
             Веб-интерфейсы, фирменный стиль, гайдлайны, логотипы, индустриальный
             дизайн и многое другое. Задизайним абсолютно всё от А до Я.
           </p>
-          <a href="#"> перейти к работам -> </a>
+          <a href="#">Подробнее -></a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/streak.png" alt="">
           <p class="serv-item-title">
             АЙДЕНТИФИКАЦИОННЫЙ СКАЧОК
           </p>
-          <p>
-            Реализуем потребные бизнес-решения используя современные
-            веб-технологии.
+          <img src="~/assets/imgs/rock_3.png" alt="">
+
+          <p class="content">
+            Веб-сайты, интернет-магазины, веб приложения. Комплексная разработка на VueJS или React на фронте. Популярные CMS - 1С-Bitrix, Headless CMS
+            Storyblok или Strapi на бэкэнде.
           </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/pickadilly.png" alt="">
           <p class="serv-item-title">
             СТРАТЕГИЧЕСКИЙ КАРТ-БЛАНШ
           </p>
-          <p>
-            Реализуем потребные бизнес-решения используя современные
-            веб-технологии.
+          <img src="~/assets/imgs/rock_4.png" alt="">
+
+          <p class="content">
+            Веб-сайты, интернет-магазины, веб приложения. Комплексная разработка на VueJS или React на фронте. Популярные CMS - 1С-Bitrix, Headless CMS
+            Storyblok или Strapi на бэкэнде.
           </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
       </div>
       <div class="columns is-gapless serv-row">
@@ -203,24 +210,31 @@
             интерфейсы, айдентику иллюстрации, которые не только отражают стиль,
             но и повышают метрики.
           </p>
-          <a href="#"> перейти к работам -> </a>
+          <a href="#">Подробнее -></a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/brand.png" alt="">
           <p class="serv-item-title">
             AR - РАЗРАБОТКА
           </p>
-          <p>
-            Реализуем потребные бизнес-решения используя современные
-            веб-технологии.
+          <img src="~/assets/imgs/rock_5.png" alt="">
+
+          <p class="content">
+            Веб-сайты, интернет-магазины, веб приложения. Комплексная разработка на VueJS или React на фронте. Популярные CMS - 1С-Bitrix, Headless CMS
+            Storyblok или Strapi на бэкэнде.
           </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/font.png" alt="">
           <p class="serv-item-title">
             ПОТРЕБИТЕЛЬСКИЙ ФОКУС
           </p>
-          <p>Иллююстрации, копирайт, графический интерфейс для игр.</p>
+          <img src="~/assets/imgs/rock_6.png" alt="">
+
+          <p class="content">
+            Веб-сайты, интернет-магазины, веб приложения. Комплексная разработка на VueJS или React на фронте. Популярные CMS - 1С-Bitrix, Headless CMS
+            Storyblok или Strapi на бэкэнде.
+          </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
       </div>
       <div class="columns is-gapless serv-row">
@@ -238,27 +252,29 @@
             интерфейсы, айдентику иллюстрации, которые не только отражают стиль,
             но и повышают метрики.
           </p>
-          <a href="#"> перейти к работам -> </a>
+          <a href="#">Подробнее -></a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/advert.png" alt="">
           <p class="serv-item-title">
             КОНТЕКСТНАЯ РЕКЛАМА
           </p>
-          <p>
-            Реализуем потребные бизнес-решения используя современные
-            веб-технологии.
+          <img src="~/assets/imgs/rock_7.png" alt="">
+          <p class="content">
+            Веб-сайты, интернет-магазины, веб приложения. Комплексная разработка на VueJS или React на фронте. Популярные CMS - 1С-Bitrix, Headless CMS
+            Storyblok или Strapi на бэкэнде.
           </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
         <div class="column serv-item">
-          <img src="~/assets/imgs/dj.png" alt="">
           <p class="serv-item-title">
             SEO BUST
           </p>
-          <p>
-            Реализуем потребные бизнес-решения используя современные
-            веб-технологии.
+          <img src="~/assets/imgs/rock_8.png" alt="">
+          <p class="content">
+            Веб-сайты, интернет-магазины, веб приложения. Комплексная разработка на VueJS или React на фронте. Популярные CMS - 1С-Bitrix, Headless CMS
+            Storyblok или Strapi на бэкэнде.
           </p>
+          <a class="btn" href="#popup"> заказать разработку </a>
         </div>
       </div>
     </section>
@@ -366,8 +382,12 @@ export default {}
   .main-service.column {
     border-right: 1px solid white;
     padding-right: 32px !important;
+    display: flex;
+    flex-direction: column;
     a{
-      color:#fff;
+      margin-top: 50px;
+      color: #fff;
+      width: 39%;
       &:hover{
         color: gray;
       }
@@ -384,34 +404,70 @@ export default {}
   .num-service {
     display: flex;
     justify-content: space-between;
-    margin-top: 48px;
     p {
       font-size: 24px;
+      font-weight: 200;
     }
   }
   .service-title {
-    font-size: 48px;
-    margin-top: 96px;
+    font-size: 36px;
+    margin: 161px 0px;
   }
   .service-description {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 200;
-    margin: 96px 0px 30px 0px;
   }
 
   .serv-item.column {
     padding-left: 32px !important;
-    p {
-      display: block;
+   .serv-item-title {
       font-size: 24px;
-      margin-top: 24px;
+      font-weight: 400 !important;
+      margin-bottom: 24px;
+    }
+    .content{
+      margin: 32px 0px;
+      font-size: 18px;
       font-weight: 200;
     }
+    a{
+    color:#fff;
+  }
+  .btn {
+    display: block;
+    position: relative;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    border-radius: 10rem;
+    overflow: hidden;
+    width: 267px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .btn::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all .35s;
+    background: #fff;
+    z-index: -1;
+    border-radius: 10rem;
   }
 
-  .serv-item-title {
-    font-weight: 400 !important;
+  .btn:hover::after{
+    width: 100%
   }
+  .btn:hover {
+    color: #000 !important;
+  }
+
+  }
+
 }
 
 .sec-about {

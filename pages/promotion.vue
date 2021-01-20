@@ -93,20 +93,40 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  a {
-    color: #fff;
+  a{
+    color:#fff;
   }
   .btn {
+    display: block;
+    position: relative;
     margin-top: 25px;
     border: 2px solid #fff;
     padding: 10px 15px;
     text-align: center;
-    transition: 0.3s ease-in;
+    transition: 0.3s ease-in-out;
+    border-radius: 10rem;
+    overflow: hidden;
+  }
+  .btn::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all .35s;
+    background: #fff;
+    z-index: -1;
+    border-radius: 10rem;
+  }
+
+  .btn:hover::after{
+    width: 100%
   }
   .btn:hover {
-    background: #fff;
     color: #000;
   }
+
 }
     .img-box {
     position: relative;

@@ -149,25 +149,7 @@
     font-weight: 400;
   }
 }
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  a {
-    color: #fff;
-  }
-  .btn {
-    margin-top: 25px;
-    border: 2px solid #fff;
-    padding: 10px 15px;
-    text-align: center;
-    transition: 0.3s ease-in;
-  }
-  .btn:hover {
-    background: #fff;
-    color: #000;
-  }
-}
+
 .content {
 .title-box {
   margin-bottom: 88px;
