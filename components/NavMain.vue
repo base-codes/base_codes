@@ -1,6 +1,10 @@
 <template>
   <div>
-    <div class="navbars" :style=" {background: withVissible ? 'transparent': ''} " :class="{ 'navbar--hidden': !showNavbar }">
+    <div
+      class="navbars"
+      :style="{ background: withVissible ? 'transparent' : '' }"
+      :class="{ 'navbar--hidden': !showNavbar }"
+    >
       <div v-if="!withVissible" class="page-noise" />
       <!-- из статьи -->
       <div class="logo">
@@ -86,13 +90,25 @@
                     >Веб-разработка</a>
                   </div>
                   <div class="column is-gapless">
-                    <a class="item" href="#" @click="toggle_branding">Брендинг</a>
+                    <a
+                      class="item"
+                      href="#"
+                      @click="toggle_branding"
+                    >Брендинг</a>
                   </div>
                   <div class="column is-gapless">
-                    <a class="item" href="#" @click="toggle_prom">Продвижение</a>
+                    <a
+                      class="item"
+                      href="#"
+                      @click="toggle_prom"
+                    >Продвижение</a>
                   </div>
                   <div class="column is-gapless">
-                    <a class="item" href="#" @click="toggle_content">Создание контента</a>
+                    <a
+                      class="item"
+                      href="#"
+                      @click="toggle_content"
+                    >Создание контента</a>
                   </div>
                   <div class="column is-gapless">
                     <a class="item" href="#">Аутсорс</a>
@@ -257,11 +273,12 @@ h3 {
   padding: 32px 96px;
   z-index: 9999;
   transform: translate3d(0, 0, 0);
-  transition:  transform 0.4s all ease-out;
+
   overflow: hidden;
 }
 .navbars.navbar--hidden {
   transform: translate3d(0, -100%, 0);
+  transition: 0.4s all ease-out;
 }
 .navButton {
   display: block;
