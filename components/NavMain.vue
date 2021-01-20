@@ -257,7 +257,7 @@ h3 {
   padding: 32px 96px;
   z-index: 9999;
   transform: translate3d(0, 0, 0);
-  transition:  transform 0.4s all ease-out;
+  transition: 0.4s all ease-out;
   overflow: hidden;
 }
 .navbars.navbar--hidden {

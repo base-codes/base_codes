@@ -1,11 +1,11 @@
 <template>
-  <article class="accordion">
+  <section class="accordion">
     <div class="accordion-header">Hello World</div>
     <div class="accordion-body">
       <div class="accordion-content">
       </div>
     </div>
-  </article>
+  </section>
 </template>
 
 <style>
